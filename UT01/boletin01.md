@@ -23,7 +23,7 @@ El número 26 es par
 ```
  
 ###  3. De € a céntimos  
-Haz una aplicación JAVA que pida por consola un número de céntimos entre 1000 y 5000 y me muestre el número de euros y céntimos. Emplear el operador módulo '%'. 
+Haz una aplicación que pida por consola un número de céntimos entre 1000 y 5000 y me muestre el número de euros y céntimos. Emplear el operador módulo '%'. 
 
 
 **EJEMPLO** 
@@ -34,7 +34,7 @@ Introduce cantidad: 5437
 ```
  
 ###  4. Calcula el salario. 
-Haz una aplicación JAVA que pida por consola el salario de un trabajador entre 800 y 3000€ y un aumento entre el 10% y el 20%. La aplicación debe mostrar la siguiente información: 
+Haz una aplicación que pida por consola el salario de un trabajador entre 800 y 3000€ y un aumento entre el 10% y el 20%. La aplicación debe mostrar la siguiente información: 
 
 **EJEMPLO**
 ```
@@ -72,7 +72,7 @@ El resto de dividir 3 entre 7 es: 3
 ```
  
 ###  7. Día de la Semana. 
-Haz una aplicación JAVA que pida un número por consola del 1 al 7 y a continuación indique a que día de la semana corresponde mediante una serie de sentencias “Si …SiNo”. La aplicación debe mostrar por pantalla:  
+Haz una aplicación que pida un número por consola del 1 al 7 y a continuación indique a que día de la semana corresponde mediante una serie de sentencias “Si … SiNo”. La aplicación debe mostrar por pantalla:  
 
 **EJEMPLO** 
 
@@ -82,7 +82,7 @@ El 4º día de la semana es Jueves.
 ```
  
 ###  8. Tres números  
-Haz una aplicación JAVA que, a partir de tres variables enteras solicitadas por consola. Para ello habrá que crear una serie de variables adicionales.  
+Haz una aplicación que, a partir de tres variables enteras solicitadas por consola. Para ello habrá que crear una serie de variables adicionales.  
  
 
 **EJEMPLO:**  
