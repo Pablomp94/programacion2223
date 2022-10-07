@@ -3,6 +3,8 @@
 ### 1. El Mayor. 
 Haz una aplicación que pida dos números por consola y devuelva el mayor: 
 
+**EJEMPLO**
+
 ```
 Introduce un número: 6
 Introduce otro número: 13 
@@ -14,15 +16,18 @@ Haz una aplicación que pida un número por consola y determine si es par o impa
 Emplear el operador módulo '%'. 
 
 **EJEMPLO**
+
 ```
-Introduce un número: 26 
+Introduce un número: 26
 El número 26 es par 
 ```
  
 ###  3. De € a céntimos  
 Haz una aplicación JAVA que pida por consola un número de céntimos entre 1000 y 5000 y me muestre el número de euros y céntimos. Emplear el operador módulo '%'. 
 
+
 **EJEMPLO** 
+
 ```
 Introduce cantidad: 5437 
 5437 céntimos son 54 euros y 37 céntimos. 
@@ -44,6 +49,7 @@ El sueldo final es de 1404€
 Haz una aplicación que calcule el área de un triángulo cuya fórmula es a=(b*h)/2. Los datos de la base y la altura serán pedidos por consola y deben estar comprendidos entre 1 y 15. La aplicación debe mostrar la siguiente información: 
 
 **EJEMPLO**
+
 ```
 Introduce un valor para la base: 12 
 Introduce un valor para la altura: 10 
@@ -55,6 +61,7 @@ El área del triángulo es 60
 Haz una aplicación  que, a partir de dos variables enteras llamadas num1 y num2, pida su valor por consola y muestre los siguientes mensajes en función del valor asignado a las variables:
 
 **EJEMPLO** 
+
 ```
 Escribe un valor para la variable num1: 3 
 Escribe un valor para variable num2: 7 
@@ -66,6 +73,9 @@ El resto de dividir 3 entre 7 es: 3
  
 ###  7. Día de la Semana. 
 Haz una aplicación JAVA que pida un número por consola del 1 al 7 y a continuación indique a que día de la semana corresponde mediante una serie de sentencias “Si …SiNo”. La aplicación debe mostrar por pantalla:  
+
+**EJEMPLO** 
+
 ```
 Introduce el día de la semana: 4 
 El 4º día de la semana es Jueves. 
@@ -73,7 +83,10 @@ El 4º día de la semana es Jueves.
  
 ###  8. Tres números  
 Haz una aplicación JAVA que, a partir de tres variables enteras solicitadas por consola. Para ello habrá que crear una serie de variables adicionales.  
-Si por ejemplo recibimos los valores 15, 94 y 73 respectivamente, por pantalla debe mostrarse:  
+ 
+
+**EJEMPLO:**  
+
 ```
 Introduce numero uno: 15 
 Introduce numero uno: 94 
