@@ -1,7 +1,7 @@
 #IES LOS ALBARES
 ## PROGRAMACIÓN 22-23 / BOLETÍN 01
 ### 1. El Mayor. 
-Haz una aplicación que pida dos números por consola y devuelva el mayor: 
+Haz un programa en pseudocodigo que pida dos números por consola y devuelva el mayor: 
 
 **EJEMPLO**
 
@@ -12,7 +12,7 @@ El número mayor es 13
 ```
 
 ###  2. ¿Par o impar? 
-Haz una aplicación que pida un número por consola y determine si es par o impar.
+Haz un programa en pseudocodigo que pida un número por consola y determine si es par o impar.
 Emplear el operador módulo '%'. 
 
 **EJEMPLO**
@@ -23,7 +23,7 @@ El número 26 es par
 ```
  
 ###  3. De € a céntimos  
-Haz una aplicación que pida por consola un número de céntimos entre 1000 y 5000 y me muestre el número de euros y céntimos. Emplear el operador módulo '%'. 
+Haz un programa en pseudocodigo que pida por consola un número de céntimos entre 1000 y 5000 y me muestre el número de euros y céntimos. Emplear el operador módulo '%'. 
 
 
 **EJEMPLO** 
@@ -34,7 +34,7 @@ Introduce cantidad: 5437
 ```
  
 ###  4. Calcula el salario. 
-Haz una aplicación que pida por consola el salario de un trabajador entre 800 y 3000€ y un aumento entre el 10% y el 20%. La aplicación debe mostrar la siguiente información: 
+Haz un programa en pseudocodigo que pida por consola el salario de un trabajador entre 800 y 3000€ y un aumento entre el 10% y el 20%. La aplicación debe mostrar la siguiente información: 
 
 **EJEMPLO**
 ```
@@ -46,7 +46,7 @@ El sueldo final es de 1404€
 ```
  
 ###  5. Área del Triángulo. 
-Haz una aplicación que calcule el área de un triángulo cuya fórmula es a=(b*h)/2. Los datos de la base y la altura serán pedidos por consola y deben estar comprendidos entre 1 y 15. La aplicación debe mostrar la siguiente información: 
+Haz un programa en pseudocodigo que calcule el área de un triángulo cuya fórmula es a=(b*h)/2. Los datos de la base y la altura serán pedidos por consola y deben estar comprendidos entre 1 y 15. La aplicación debe mostrar la siguiente información: 
 
 **EJEMPLO**
 
@@ -58,7 +58,7 @@ El área del triángulo es 60
  
  
 ###  6. Operaciones Matemáticas  
-Haz una aplicación  que, a partir de dos variables enteras llamadas num1 y num2, pida su valor por consola y muestre los siguientes mensajes en función del valor asignado a las variables:
+Haz un programa en pseudocodigo  que, a partir de dos variables enteras llamadas num1 y num2, pida su valor por consola y muestre los siguientes mensajes en función del valor asignado a las variables:
 
 **EJEMPLO** 
 
@@ -72,7 +72,7 @@ El resto de dividir 3 entre 7 es: 3
 ```
  
 ###  7. Día de la Semana. 
-Haz una aplicación que pida un número por consola del 1 al 7 y a continuación indique a que día de la semana corresponde mediante una serie de sentencias “Si … SiNo”. La aplicación debe mostrar por pantalla:  
+Haz un programa en pseudocodigo que pida un número por consola del 1 al 7 y a continuación indique a que día de la semana corresponde mediante una serie de sentencias “Si … SiNo”. La aplicación debe mostrar por pantalla:  
 
 **EJEMPLO** 
 
@@ -82,7 +82,7 @@ El 4º día de la semana es Jueves.
 ```
  
 ###  8. Tres números  
-Haz una aplicación que, a partir de tres variables enteras solicitadas por consola. Para ello habrá que crear una serie de variables adicionales.  
+Haz un programa en pseudocodigo que, a partir de tres variables enteras solicitadas por consola. Para ello habrá que crear una serie de variables adicionales.  
  
 
 **EJEMPLO:**  
