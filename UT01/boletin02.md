@@ -1,7 +1,7 @@
 #IES LOS ALBARES
 ## PROGRAMACIÓN 22-23 / BOLETÍN 02
 ### 1. Tu edad. 
-Haz una aplicación para saber la edad de una persona cualquiera a partir de su fecha de nacimiento con todos sus datos; día, mes y año de nacimiento. Se mostrará sólo los años que tienes
+Haz un programa en pseudocódigo para saber la edad de una persona cualquiera a partir de su fecha de nacimiento con todos sus datos; día, mes y año de nacimiento. Se mostrará sólo los años que tienes
 La fecha actual la decidimos nostros de manera interna.
 
 **EJEMPLO**
@@ -14,7 +14,7 @@ Hoy es 8-10-2022, por lo tanto tienes 23 años.
 ```
 
 ###  2. Calificación
-Haz una aplicación que lea una calificación numérica entre 0 y 10 y la transforma en calificación alfabética, escribiendo el resultado.
+Haz un programa en pseudocódigo que lea una calificación numérica entre 0 y 10 y la transforma en calificación alfabética, escribiendo el resultado.
 
 - de 0 a <3 Muy Deficiente.
 - de 3 a <5 Insuficiente.
@@ -30,7 +30,7 @@ Vaya, eso es un insuficiente.
 ```
  
 ###  3. Calcula paga semanal
-Haz una aplicación que calcula el salario neto semanal de un trabajador en función del número de horas trabajadas y la tasa de impuestos de acuerdo a las siguientes hipótesis:
+Haz un programa en pseudocódigo que calcula el salario neto semanal de un trabajador en función del número de horas trabajadas y la tasa de impuestos de acuerdo a las siguientes hipótesis:
 
 - Las primeras 35 horas se pagan a tarifa normal.
 - Las horas que pasen de 35 se pagan a 1,5 veces la tarifa normal.
@@ -56,7 +56,7 @@ Tu sueldo semanal neto es de 645,5€.
 ```
  
 ###  4. Mayor
-Crea una aplicación que lea tres números y nos diga cuál es el mayor.
+Crea un programa en pseudocódigo que lea tres números y nos diga cuál es el mayor.
 
 **EJEMPLO**
 
@@ -68,7 +68,7 @@ C es el mayor.
 ```
  
 ###  5. Geometría
-Crea una aplicación que lea un número que corresponde a la longitud de un radio y nos escribe la longitud de la circunferencia, el área del círculo y el volumen de la esfera que corresponden con dicho radio
+Crea un programa en pseudocódigo que lea un número que corresponde a la longitud de un radio y nos escribe la longitud de la circunferencia, el área del círculo y el volumen de la esfera que corresponden con dicho radio
 
 **EJEMPLO**
 
@@ -99,7 +99,7 @@ El volumen de la esfera es:
 
  
 ###  7. Conversor de moneda
-Escribe una aplicación que haga la conversión de euros a libras y viceversa. Para ello, pedirá por pantalla una cantidad y luego preguntará si es de libras a euros o de euros a libras, mostrando finalmente el resultado por pantalla.
+Escribe un programa en pseudocódigo que haga la conversión de euros a libras y viceversa. Para ello, pedirá por pantalla una cantidad y luego preguntará si es de libras a euros o de euros a libras, mostrando finalmente el resultado por pantalla.
 
 **EJEMPLO** 
 
@@ -112,7 +112,7 @@ Escribe una aplicación que haga la conversión de euros a libras y viceversa. P
 ```
  
 ###  8. Triángulo
-Esbribe una aplicación que pida los valores de los tros lados de un triángulo y, dependiendo esos valores, muestre por pantalla que tipo de triangulo es. 
+Esbribe un programa en pseudocódigo que pida los valores de los tros lados de un triángulo y, dependiendo esos valores, muestre por pantalla que tipo de triangulo es. 
 Los tipos de triángulos los puedes consultar [aqui](https://es.wikipedia.org/wiki/Tri%C3%A1ngulo#Clasificaci%C3%B3n_de_los_tri%C3%A1ngulos)
 
 **EJEMPLO:**  
