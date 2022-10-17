@@ -1,1 +1,1 @@
-# UT02 de PRGRAMACIÓN
+# UT02
