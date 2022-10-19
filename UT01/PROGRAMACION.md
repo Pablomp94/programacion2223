@@ -16,9 +16,6 @@ i)	Se han introducido comentarios en el código.<br>
 ##### Introducción a la programación:
 -	Datos, algoritmos y programas.
 -	Paradigmas de programación.
-    - [ENLACE 1](https://profile.es/blog/que-son-los-paradigmas-de-programacion/)
-    - [ENLACE 2](https://www.infor.uva.es/~cvaca/asigs/docpar/intro.pdf)
-    - [WIKIPEDIA](https://es.wikipedia.org/wiki/Paradigma_de_programación)
 -	Lenguajes de programación.
 -	Herramientas y entornos para el desarrollo de programas.
 -	Errores y calidad de los programas.
@@ -27,5 +24,5 @@ i)	Se han introducido comentarios en el código.<br>
 
 #### CRITERIOS DE CALIFICACIÓN:
 | CUADERNO DE CLASE | PRUEBA ESCRITA | OBSERVACIÓN DIRECTA | BOLETIN EJERCICIOS |
-|--|--|--|--|
+| -- | -- | -- | -- |
 |20%| 30% | 10% | 40% | 

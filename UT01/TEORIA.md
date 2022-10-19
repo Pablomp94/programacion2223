@@ -1,22 +1,32 @@
 # 01 - Introducción a la programación.
 
-## 1. Conceptos básicos
+### - [Datos, algoritmos y programas.](#uno)
+### - [Paradigmas de programación.](#dos)
+### - [Lenguajes de programación.](#tres)
+### - [Herramientas y entornos para el desarrollo de programas](#cuatro)
+### - [Errores y calidad de los programas.](#cinco)
+### - [Fases en la creación y ejecución de un programa.](#seis)
+
+<a name="uno"></a>
+## Datos, algoritmos y programas.
+
+### Introducción
 
 Al iniciar cualquier aprendizaje debe conocer previamente de una serie de conceptos básicos. Para el caso del módulo que nos ocupa, debemos conocer los conceptos  programación, programa, algoritmo, fases de desarrollo  y tipos de programación.
 
 La razón principal por la que utilizamos un ordenador es para resolver problemas (en el sentido más general de la palabra), que de manera manual serían costosos en tiempo y cuyo resultado no sería óptimo. Algunos de los problemas que nos puede resolver un ordenador son: procesamiento de texto, edición de fotografía, contabilidad, ... Cualquiera de estas tareas trabaja con una serie de datos de entrada y ofrece un resultado. Por lo tanto, un algoritmo se encargará de procesar una serie de datos de entrada para mostrar un conjunto de datos de salida.
 
-### 1.1. Orígenes.
+### Breve historia de la programación
 Antes de definir la programación, deberíamos tener claro qué es un ordenador. Lo podemos definir como una máquina que realiza el tratamiento de datos de forma automática.  Los ordenadores tienen sus raíces  en las primeras calculadoras de operaciones matemáticas elementales, las cuales incluían los algoritmos implementados dentro de su estructura física. Algunos de estos dispositivos son la calculadora mecánica de **Leibnitz** y la considerada primera computadora -la máquina analítica- de **Charles Babbage**.
 
 La informática como disciplina es relativamente reciente. No se empezó a hablar de Ingeniería Informática hasta finales de los años 50. No obstante, en el pasado hubo aproximaciones por parte de los precursores de la programación tal y como la conocemos hoy, y que surgieron para dar respuesta a la necesidad de automatizar y facilitar las tareas que originalmente se realizaban de forma manual.
 
-Por ejemplo, cuando comenzó la revolución industrial,  en los telares automáticos de la industra inglesa, se recibían los datos sobre el trabajo a realizar a través de tarjetas perforadas. Sin embargo, no es hasta la aportación de **Augusta Ada Byron** (considerada la primera programadora de la historia) que puede hablarse de programación como ciencia estructurada.
+Por ejemplo, cuando comenzó la revolución industrial,  en los telares automáticos de la industria inglesa, se recibían los datos sobre el trabajo a realizar a través de tarjetas perforadas. Sin embargo, no es hasta la aportación de **Augusta Ada Byron** (considerada la primera programadora de la historia) que puede hablarse de programación como ciencia estructurada.
 
-### 1.2. Algoritmo, programa y programación.
+###  Algoritmo, programa y programación.
 Ya sabemos qué es un ordenador. Pero el ordenador no es inteligente, solamente ejecutará las operaciones deseadas si previamente alguien lo ha preparado. Esta preparación se llama programación y tiene como resultado final el programa que, cuando es ejecutado por la máquina, permite conseguir el resultado que se pretendía.
 
-Por **algoritmo** entendemos un conjunto ordenado de operaciones destiandas a resolver un problema que deben cumplir las siguientes condiciones:
+Por **algoritmo** entendemos un conjunto ordenado de operaciones destinadas a resolver un problema que deben cumplir las siguientes condiciones:
 
 - Tiene un número finito de pasos
 - Acaba en un tiempo finito.
@@ -68,11 +78,11 @@ En el ejemplo anterior , hemos elaborado un programa que permite conseguir un ob
 Las fases de desarrollo del software se estudiarán en la materia de "Entornos de desarrollo".
 
 Todo lo anterior se ejecuta dentro de un sistema informático (PC, portátil ,...) que interpreta las instrucciones del lenguaje y las traduce a un lenguaje que puede interpretar (lenguaje máquina). 
-Dependiendo del proceso de traducción del lengaje de programación usado al lenguaje máquina, podemos clasificar las lenguajes en varios tipos.
+Dependiendo del proceso de traducción del lenguaje de programación usado al lenguaje máquina, podemos clasificar las lenguajes en varios tipos.
 
 > **Un ordenador es como una pizzería.**<br>Si se quiere hacer un símil con nuestro mundo diario, un ordenador es como la cocina de una pizzería que acepta pedidos telefónicos. Hacer un pedido equivale a pedir el inicio de la ejecución de un programa. Para llevar a cabo este pedido, será necesario manipular una serie de ingredientes, que representarían los datos. El cocinero con sus utensilios (horno, amasador, etc.) serían el procesador, ya que manipulan y transforman los ingredientes. La nevera, los armarios o los contenedores, de donde el cocinero puede sacar ingredientes o donde puede guardarlos mientras no los está manipulando, representarían la memoria. El sistema de entrada/salida serían los elementos de comunicación con el exterior de la pizzería, como el motorista que lleva la pizza o el teléfono que el cocinero puede utilizar para pedir que le traigan nuevos ingredientes cuando se le acaben, pedir información adicional al usuario (“Se acabó el pimiento, ¿va bien si ponemos cebolla?”), o avisarle de algún evento (“Lo siento, tardará un poco más de lo previsto”). De hecho, continuando con el símil, el cocinero prepara una pizza siguiendo un conjunto de pasos. En este caso la receta son las órdenes que debe seguir el programa. Y si el cocinero no tiene la receta no puede realizar el pedido.
 
-### 1.3. Tratamiento de los datos
+### Tratamiento de los datos
 El propósito principal de todo programa de ordenador, en última instancia, es procesar datos de todo tipo. Para lograr esta tarea, el ordenador debe almacenar los datos en la memoria, de forma que posteriormente el procesador pueda leerlos y transformarlos de acuerdo con los propósitos del programa. 
 
 Por tanto, un buen lugar por donde empezar el aprendizaje de  programación es entender claramente el  conjunto de instrucciones que da a la memoria las órdenes de guardar o consultar los datos que se van a necesitar en cada momento. 
@@ -85,7 +95,34 @@ Aunque en ocasiones se usa el término datos, en plural, como si fuera algo en g
 
 Por otra parte, hasta el momento se ha dicho que el ordenador se encarga de procesar y transformar cada uno de estos datos individuales, pero tampoco se ha especificado exactamente cómo se representan o clasifican los diferentes tipos de datos dentro del programa, o cómo se pueden transformar. Ha llegado el momento de concretar algo más todos estos detalles.
 
-#### 1.2.1. Tipo de datos
+<a name="dos"></a>
+## Paradigmas de programación
+
+Un paradigma de programación no es más que un acuerdo entre la comunidad de desarrollo de software para aceptar como modelo de referencia para generar un código de calidad, un conjunto de recomendaciones y normas a la hora de programar.
+
+Normalmente, en la vida real los programadores suelen mezclar costumbres o métodos de  varios de ellos al mismo tiempo para el desarrollo de sus programas, lo que se denomina programación multiparadigma y generalmente es la forma que mejores resultados obtiene.
+
+Utilizar un paradigma de programación, aceptando y siguiendo sus reglas, derivará en un código fuente fácil de mantener, entender y corregir.
+Son muchos los paradigmas de programación que se pueden enumerar, aunque a continuación serán descritos con detalle aquellos más empleados
+que mayor relación guardan con los contenidos del curso. 
+
+Los dos paradigmas que vamos a ver en este tema son:
+- La programación estructurada
+- Paradigma de programación modular. 
+
+Para una completa información se recomienda leer el siguiente enlace:
+
+[Paradigmas de Programación](https://sites.google.com/site/programacionmodularbycentecon/home)
+
+El paradigma de programación orientada a objetos será estudiado en otro tema diferente.
+
+<a name="tres"></a>
+## Lenguajes de programación.
+Como hemos visto previamente, los lenguajes de programación serán los encargados de procesar una serie de datos de entrada a través de una serie de instrucciones organizadas de manera coherente y siguiendo unos patrones prefijados.
+
+A continuación vamos a tratar los datos y las estructuras de código que forman parte de la mayoría de lenguajes de programación estructurados, que es el paradigma que vamos a desarrollar en este curso.
+
+### Tipo de datos
 Estrictamente hablando, cualquier información puede transformarse en datos que pueda entender y manipular un ordenador. Un dato individual dentro de su programa puede ser un documento de texto, una imagen, un plano de un edificio, una canción, etc... 
 
 Basta con ver la inmensa variedad de programas que existen hoy en día para hacerse una idea. Ahora bien, uno de los puntos importantes es que dentro de un programa los datos pueden clasificarse dentro de diferentes categorías, los tipos de datos.
@@ -94,7 +131,7 @@ Basta con ver la inmensa variedad de programas que existen hoy en día para hace
 
 Por ejemplo, en su día a día a menudo trata con datos que tienen como característica común el hecho de que se pueden representar mediante números: una distancia, una edad, un período de tiempo, etc. Puede decirse que una ciudad está a 8 km de otra, que alguien tiene 30 años o que han pasado 15 días desde un evento. Por tanto, los valores 8, 30 o 15 formarían parte de un mismo tipo de dato.
 
-También como ejemplo, en contraposición a los datos de tipo numérico, otra información que trata habitualmente es texto en palabras: el nombre de una mascota, de una calle, de una institución, etc. En este caso, puede estar hablando de “Shiro”, del “Paseo de Gracia”, del “IES Los Albares”, etc. En este caso, los datos se representan con distintos símbolos y expresan otras ideas. Por tanto, formarían parte de otro tipo de dato.
+También como ejemplo, en contraposición a los datos de tipo numérico, otra información que trata habitualmente es texto en palabras: el nombre de una mascota, de una calle, de una institución, etc. En este caso, puede estar hablando de “Tarzán”, de la “Plaza de España”, del “IES Los Albares”, etc. En este caso, los datos se representan con distintos símbolos y expresan otras ideas. Por tanto, formarían parte de otro tipo de dato.
 
 Una propiedad importante para ver si dos datos son de distintos tipos es si el conjunto de valores con el que se pueden expresar también es diferente. En los dos ejemplos anteriores, la consideración de que se trata de tipos de datos diferentes también se encuentra soportada por este hecho. Por ejemplo, el conjunto de valores que puede tomar el nombre de una calle o una persona no es cualquiera, ya que no puede expresarse exclusivamente mediante valores numéricos.
 
@@ -167,25 +204,10 @@ El código **ASCII** inicial representaba 128 caracteres en lugar de 256. Cuando
 Desgraciadamente, el código **ASCII** tiene un inconveniente, y es que sólo permite representar alfabetos occidentales, por lo que los programas que lo usan para representar sus datos de tipo carácter son incompatibles con sistemas con otros alfabetos, como todos los asiáticos, el cirílico, etc. <br>
 Por este motivo, posteriormente se creó la tabla de codificación **UNICODE**, que permite codificar hasta 65.536 caracteres, pero manteniendo la compatibilidad con la codificación ASCII. Esto permite dar soporte a cualquier lengua actual, e incluso antiguas, como los jeroglíficos egipcios. Este sistema es el que actualmente utilizan la mayoría de aplicaciones modernas.
 
-## PSEUDOCÓDIGO
-El pseudocódigo es un lenguaje cercano a un lenguaje de programación cuyo objetivo es el desarrollo de algoritmos fácilmente interpretable por un programador, independientemente del lenguaje de programación del que provenga. En sí mismo no se trata de un lenguaje de programación, pero si que utiliza un conjunto limitado de expresiones que permiten representar las estructuras de control y los módulos descritos en los paradigmas de programación estructurada y modular.
-
-Mediate pseudocódigo se puede escribir aquellos algoritmos que tengan solución finita y que comiencen desde un único punto de partida. La escritura de un algoritmo programa en pseudocódigo debería favorecer la posterior traducción al lenguaje de programación elegido.
-
-> Dado que no existe una sintaxis estandarizada para la escritura de pseudocódigo, es posible encontrar diferencias sustanciales en los pseudocódigos escritos por diferentes programadores.
-
-### Operadores y palabras reservadas
-
-A pesar de que no existe una norma rígida que establezca cómo realizar la escritura de programas en pseudocódigo, es recomendable seguir una serie de recomendaciones que permitan transcribir el programa al lenguaje de programación que va a usarse con la mayor facilidad. A continuación, se muestran las tablas resumen de los operadores, palabras reservadas y tipos de datos empleados para la escritura de pseudocódigo en el capítulo.
-
-![3506d0f1afa3152a007d9997e129b504.png](_resources/3506d0f1afa3152a007d9997e129b504.png)
-
-![810a9aefc122846683fceef75aac0591.png](_resources/810a9aefc122846683fceef75aac0591.png)
-
-## Estructuras de control
+### Estructuras de control
 Tal como se ha comentado en el apartado anterior, el pseudocódigo utiliza las estructuras de control propias de la programación estructurada. Por este motivo se emplearán secuencias que representen las estructuras de control secuencial, alternativa e iterativa.
 
-### Estructuras de control secuencial
+#### Estructuras de control secuencial
 Describen bloques de instrucciones que son ejecutadas en orden de aparición (secuencialmente). Los bloques pueden estar delimitados por las expresiones Inicio-Fin o bien estar contenidos en otras estructuras. 
 
 ```
@@ -196,7 +218,7 @@ Inicio
 Fin
 ```
 
-### Estructuras de control alternativa
+#### Estructuras de control alternativa
 Entre los diferentes tipos de estructuras de control que permiten establecer el flujo de control de un programa, las más fáciles de entender son aquellas que crean bifurcaciones o caminos alternativos, de forma que, según las circunstancias, se ejecute un conjunto de instrucciones u otro. De esta forma, dadas diferentes ejecuciones de un mismo código fuente, parte de las instrucciones que se ejecutan pueden ser diferentes para cada caso.
 
 Las estructuras de selección permiten tomar decisiones sobre qué conjunto de instrucciones se deben ejecutar en un punto del programa. O sea, seleccionar qué código se ejecuta en un momento determinado entre caminos alternativos.
@@ -225,7 +247,6 @@ SiNo
 FinSi
 ```
 
-
 La estructura de selección doble permite controlar que se ejecute un conjunto de instrucciones, sólo si se cumple la condición lógica, y que se ejecute otro, sólo si no se cumple la condición lógica
 
 Es importante recordar que ambos bloques de código son excluyentes. Nunca puede ocurrir que ambos se acaben ejecutando.
@@ -245,3 +266,35 @@ SiNo SI
    ...
 FinSi
 ```
+
+El resto de estructuras de control (elección múltiple, bucles y secuencias iterativas) las veremos en otra unidad.
+
+### PSEUDOCÓDIGO
+El pseudocódigo es un lenguaje cercano a un lenguaje de programación cuyo objetivo es el desarrollo de algoritmos fácilmente interpretable por un programador, independientemente del lenguaje de programación del que provenga. En sí mismo no se trata de un lenguaje de programación, pero si que utiliza un conjunto limitado de expresiones que permiten representar las estructuras de control y los módulos descritos en los paradigmas de programación estructurada y modular.
+
+Mediante pseudocódigo se puede escribir aquellos algoritmos que tengan solución finita y que comiencen desde un único punto de partida. La escritura de un algoritmo programa en pseudocódigo debería favorecer la posterior traducción al lenguaje de programación elegido.
+
+> Dado que no existe una sintaxis estandarizada para la escritura de pseudocódigo, es posible encontrar diferencias sustanciales en los pseudocódigos escritos por diferentes programadores.
+
+### Operadores y palabras reservadas
+
+A pesar de que no existe una norma rígida que establezca cómo realizar la escritura de programas en pseudocódigo, es recomendable seguir una serie de recomendaciones que permitan transcribir el programa al lenguaje de programación que va a usarse con la mayor facilidad. A continuación, se muestran las tablas resumen de los operadores, palabras reservadas y tipos de datos empleados para la escritura de pseudocódigo en el capítulo.
+
+![3506d0f1afa3152a007d9997e129b504.png](_resources/3506d0f1afa3152a007d9997e129b504.png)
+
+![810a9aefc122846683fceef75aac0591.png](_resources/810a9aefc122846683fceef75aac0591.png)
+
+<a name="cuatro"></a>
+## Herramientas y entornos para el desarrollo de programas.
+Existen multitud de herramientas para desarrollar nuestros programas, para profundizar en este apartado, se recomienda leer el [apartado correspondiente]() de la unidad 1 de entornos de desarrollo.
+
+<a name="cinco"></a>
+## Errores y calidad de los programas.
+Ver [Referencia en Entornos de Desarrollo](https://github.com/joaquinalbares/entornos2223/blob/master/UT01/UT01.md#errores-en-el-desarrollo-de-programas)
+
+<a name="seis"></a>
+## Fases en la creación y ejecución de un programa.
+Ver [Referencia en Entornos de Desarrollo](https://github.com/joaquinalbares/entornos2223/blob/master/UT01/UT01.md#errores-en-el-desarrollo-de-programas)
+
+FUENTES:
+
