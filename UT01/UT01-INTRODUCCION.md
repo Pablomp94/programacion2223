@@ -35,13 +35,13 @@ Consideremos el típico ejemplo que se propone a todo estudiante de programació
 
 **Procedimiento**:
 
-b) <u>Romper</u> los dos huevos en el plato y <u>desechar</u> la  cáscara.
+a) <u>Romper</u> los dos huevos en el plato y <u>desechar</u> la  cáscara.
 
-c) <u>Echar</u> poco de sal sobre los huevos.
+b) <u>Echar</u> poco de sal sobre los huevos.
 
-d) <u>Batir</u> los huevos con el tenedor.
+c) <u>Batir</u> los huevos con el tenedor.
 
-e) <u>Echar</u> un chorro de aceite en la sartén y <u>calentar</u> en el fogón.
+d) <u>Echar</u> un chorro de aceite en la sartén y <u>calentar</u> en el fogón.
 
 f) Cuando el aceite esté caliente, <u>verter</u> el contenido del plato en la sartén.
 
@@ -233,7 +233,7 @@ Es importante recordar que ambos bloques de código son excluyentes. Nunca puede
 **Varios caminos: la sentencia ''if/else if/else''**
 Finalmente, a la hora de establecer el flujo de control de un programa, también existe la posibilidad de que haya un número arbitrario de caminos alternativos, no sólo dos. Por ejemplo, imagináis un programa que, a partir de la nota numérica de un examen, debe establecer cuál es la calificación del alumno. Por eso habrá que ver dentro de qué rango se encuentra el número. En cualquier caso, los posibles resultados son más de dos.
 
-```
+```shell
 Si (condición) entonces 
    <instrucciones1> 
 SiNo SI
