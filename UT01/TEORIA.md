@@ -286,15 +286,104 @@ A pesar de que no existe una norma rígida que establezca cómo realizar la escr
 
 <a name="cuatro"></a>
 ## Herramientas y entornos para el desarrollo de programas.
-Existen multitud de herramientas para desarrollar nuestros programas, para profundizar en este apartado, se recomienda leer el [apartado correspondiente]() de la unidad 1 de entornos de desarrollo.
+Existen multitud de herramientas para desarrollar nuestros programas, para profundizar en este apartado, se recomienda leer el [apartado correspondiente]() de la unidad 2 de entornos de desarrollo.
 
 <a name="cinco"></a>
 ## Errores y calidad de los programas.
 Ver [Referencia en Entornos de Desarrollo](https://github.com/joaquinalbares/entornos2223/blob/master/UT01/UT01.md#errores-en-el-desarrollo-de-programas)
 
+### Errores comunes en JAVA
+
+Aunque todavía no hemos entrado en el lenguaje JAVA, podemos introducir aquí algunos errores comunes, aunque hay otros muchos más. 
+
+
+#### PROBLEMAS LÉXICOS 
+**Mayúsculas y minúsculas**
+
+Java es sensible a las mayúsculas y las minúsculas. De esta manera, si defines una variable con el nombre myVar y la utilizas como myvar, en realidad te estás refiriendo a una variable diferente. El tipo de datos (tipos primitivos) comienzan con letra minúscula y los nombres de las clases con letra mayúscula. Por lo tanto, tienes que tener cuidado a la hora de escribir int e Integer. Ten cuidado también cuando escribas String y no string porque String, aunque es muy básica, también es una clase. Fíjate en que el nombre de la clase comienza con una letra mayúscula, pero la palabra clave class es con letra minúscula.
+
+**Corchetes**
+
+Hay varios tipos de corchetes: los paréntesis(),los paréntesis cuadrados[],las llaves{}. Tienen que ser utilizados de forma correcta. Esto significa que no debes olvidar cerrarlos cuando los hayas abierto y, además, hacerlo en el orden correcto. Quizá el error más común sea olvidar cerrar un corchete, por ejemplo: cerrar } al final de la definición de una clase.
+
+Las comillas simples y dobles también tienen el comportamiento de los paréntesis con la salvedad de que, en este caso, los símbolos para abrir y cerrar son los mismos. Con las comillas también hay que tener cuidado para no incluir una nueva línea en un string. Por ejemplo,
+
+```java
+String s = "A loooooooooooooooong
+string"
+```
+
+es incorrecto. En vez de eso, quizá querías escribir 
+
+`String s = "A loooooooooooooooong string"`
+
+o también
+
+```java
+String s = "A loooooooooooooooong " +
+"string"
+```
+
+**Operadores**
+
+Tienes que comprender bien la forma y la función de los diferentes operadores en Java. Por ejemplo, tienes que distinguir la asignación = de la comparación de igualdad  ==.
+
+`x=3`
+
+asigna 3 a x, mientras
+
+`x==3`
+
+comprueba si el valor de x es igual a 3.
+
+Sin embargo, puedes utilizar == solo para la comparación de valores de tipos sencillos o escalares, pero no para objetos.
+
+`3==3`
+
+devuelve true, mientras
+
+`"3"=="3"`
+
+puede que no. Como el String es un objetos, estamos comprobando si la posición de la representación interna de estos objetos es la misma y no si los objetos son iguales. Para comparar los objetos a y b, puedes utilizar el método equals()
+
+`a.equals(b)`
+
+#### DECLARACIÓN Y USO
+**Arrays y Paquetes**
+
+Un error común es intentar utilizar una clase en nuestros programas sin importar los paquetes requeridos.
+Por ejemplo, si queremos utilizar una instancia de la clase Vector debemos importar siempre el paquete java.util.
+
+Pero, ¿por qué podemos utilizar la clase String sin importar ningún paquete?  La clase String pertenece al paquete java.lang y este paquete es el único que se importa automáticamente (por lo que podemos utilizar clases como String o Integer sin importar el paquete java.lang.) 
+
+En relación al uso de los arrays de dos dimensiones, los programadores novatos tienden a asumir que los arrays bidimensionales están implementados directamente en Java. Por lo tanto, un error común es escribir:
+
+`int[,] array = new int[2,5];`
+
+En Java tenemos que crear las filas en primer lugar y, después, las columnas. Los arrays bidimensionales son dos arrays unidimensionales que contiene cada uno una dimensión diferente. Por lo tanto, la sentencia previa debería haber sido escrita de la siguiente manera:
+
+```java
+int[][] array = new int[2][];
+array[0] = new int[5];
+array[1] = new int[5];
+```
+
+
+O de esta manera más corta:
+
+`int[][] array = new int[2][5];`
+
+FUENTE: [Introducción a la programación en Java: escribiendo buen código - edX](https://learning.edx.org/course/course-v1:UC3Mx+IT.1.2-ESx+3T2022/block-v1:UC3Mx+IT.1.2-ESx+3T2022+type@sequential+block@b495be1968bc45359d22416edd55ad39/block-v1:UC3Mx+IT.1.2-ESx+3T2022+type@vertical+block@22647d456314421db8bf63424091bc81)
+
 <a name="seis"></a>
 ## Fases en la creación y ejecución de un programa.
 Ver [Referencia en Entornos de Desarrollo](https://github.com/joaquinalbares/entornos2223/blob/master/UT01/UT01.md#errores-en-el-desarrollo-de-programas)
 
-FUENTES:
+
+
+## FUENTES:
+- [l'Institut Obert de Catalunya](https://ioc.xtec.cat/materials/FP/Recursos/fp_asx_m03_/web/fp_asx_m03_htmlindex/WebContent/u1/a2/continguts.html)
+- [PROGRAMACIÓN (ED. SÍNTESIS)](https://www.sintesis.com/desarrollo%20de%20aplicaciones%20multiplataforma-341/programaci%C3%B3n-ebook-2653.html)
+- [Ejercicios DAM](https://gradosuperiordam.top/asignaturas/programacion/)
+
 
