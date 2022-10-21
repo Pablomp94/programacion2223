@@ -4,7 +4,7 @@ Para calificar esta unidad, se va a realizar una prueba teórica y un boletín d
 
 Las fechas para la entrega y corrección son las siguientes:
 
-- Plazo límite entrega del boletín: Miércoles 26/10/2022.
+- Plazo límite entrega del boletín 03: Miércoles 26/10/2022.
 -------
 - Prueba teórica: Jueves 27/10/2022 a **PRIMERA HORA(8:30)**
 ---------
