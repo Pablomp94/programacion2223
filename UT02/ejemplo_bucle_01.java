@@ -8,7 +8,7 @@
  * He usado dos variables: una para la edad y otra para el nombre
  * Me ha parecido facil.
  * 
- * TODO: pendiente la cpnversion de entero
+ * TODO: Cosas por hacer
  * 
  * 
  */
