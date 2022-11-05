@@ -50,8 +50,8 @@ javac Main.java
 
 y luego ejecutarlo:
 
-```
+```shell
 java Main
 Hello World
-````
+```
 
