@@ -35,7 +35,7 @@ Cada línea de código que se ejecuta en Java debe estar dentro de una clase. En
 
 El nombre del archivo java debe coincidir con el nombre de la clase. Al guardar el archivo, guárdelo con el nombre de la clase y pon la extensión ".java" al final del nombre del archivo. Para ejecutar el ejemplo anterior en el equipo, debemos asegurarnos de que Java esté correctamente instalado:
 
-```
+```shell
 java -version
 openjdk version "17.0.5" 2022-10-18
 OpenJDK Runtime Environment Temurin-17.0.5+8 (build 17.0.5+8)
@@ -44,7 +44,7 @@ OpenJDK 64-Bit Server VM Temurin-17.0.5+8 (build 17.0.5+8, mixed mode)
 
 Ahora ahora podemos compilar el programa:
 
-```
+```shell
 javac Main.java
 ```
 
