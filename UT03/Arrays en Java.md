@@ -50,7 +50,7 @@ En el ejemplo anterior se crea un array de tres enteros (con los tipos básicos 
 ### 3.3  Almacenamiento
 Los valores del array se asignan (almacenan) utilizando el índice del mismo entre corchetes. 
 
-![6c06124b2cfa166b62f610233ffa6215.png](../../../_resources/6c06124b2cfa166b62f610233ffa6215.png)
+![6c06124b2cfa166b62f610233ffa6215.png](_resources/6c06124b2cfa166b62f610233ffa6215.png)
 
 
 
@@ -118,7 +118,7 @@ Para copiar vectores no basta con igualar un vector a otro como si fuera una var
 
 Si partimos de dos vectores v1, v2 e hiciéramos v2=v1, lo que ocurriría sería que v2 apuntaría a la posición de memoria de v1. Eso es lo que se denomina un copia de referencia:
 
-![6424318f44f347fddc8203c16937f0ba.png](../../../_resources/6424318f44f347fddc8203c16937f0ba.png)
+![6424318f44f347fddc8203c16937f0ba.png](_resources/6424318f44f347fddc8203c16937f0ba.png)
 
 Si por ejemplo queremos copiar todos los elementos del vector v2 en el vector v1, existen dos formas para hacerlo:
 
