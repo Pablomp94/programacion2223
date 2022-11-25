@@ -11,6 +11,7 @@ Gracias a los arrays se puede crear un conjunto de variables con el mismo nombre
 
 ## 2. Propiedades
 Algunas propiedades de los arrays son:
+
 - Los arrays se utilizan como contenedores para almacenar datos relacionados (en lugar de declarar variables por separado para cada uno de los elementos del array).
 - Todos los datos incluidos en el array son del mismo tipo. Se pueden crear arrays de enteros de tipo int o de reales de tipo float, pero en un mismo array no se pueden mezclar tipos de datos, por ej. int y  float.
 - El tamaño del array se establece cuando se crea el array (con el operador new, igual que cualquier otro objeto).
@@ -52,8 +53,6 @@ Los valores del array se asignan (almacenan) utilizando el índice del mismo ent
 
 ![6c06124b2cfa166b62f610233ffa6215.png](_resources/6c06124b2cfa166b62f610233ffa6215.png)
 
-
-
 Por ejemplo, para almacenar el valor 8 en la tercera posición del array escribiríamos:
 	notas[2] = 8;
 
@@ -74,17 +73,8 @@ En Java (como en otros lenguajes) el primer elemento de un array está en la pos
 
 > Se pueden declarar arrays a cualquier tipo de datos (enteros, booleanos, doubles, ... e incluso objetos).
 
-### 3.4  Longitud de un vector
-Los arrays poseen una propiedad llamada length que indica su tamaño.
 
-Ejemplo:
-
-	int notas[] = new int[4]; // Declara e instancia vector tipo int de tamaño 4
-	System.out.println( notas.length ); // Mostrará un 4
-
-Si el vector tiene como en el ejemplo 4 elementos, la propiedad length nos devolverá el valor entero 4, pero su primer elemento se encuentra en notas[0] y el último en notas[3].
-
- 3.5  Recorrido de un vector
+### 3.4  Recorrido de un vector
 Para recorrer un vector (acceder a todos sus elementos) siempre será necesario un bucle.
 En el siguiente ejemplo declaramos e instanciamos un vector tipo int con las notas de un alumno y luego utilizamos un bucle for para recorrer el vector y mostrar todos los elementos.
 
@@ -111,7 +101,16 @@ Ahora vamos a calcular la nota media (sumar todas y luego dividir entre el núme
 	// Calculamos la media y la mostramos por pantalla
 	media = suma / notas.length;
 	System.out.println(“La nota media es: “ + media);
+	
+### 3.5  Longitud de un vector
+Los arrays poseen una propiedad llamada length que indica su tamaño.
 
+Ejemplo:
+
+	int notas[] = new int[4]; // Declara e instancia vector tipo int de tamaño 4
+	System.out.println( notas.length ); // Mostrará un 4
+
+Si el vector tiene como en el ejemplo 4 elementos, la propiedad length nos devolverá el valor entero 4, pero su primer elemento se encuentra en notas[0] y el último en notas[3].
 
 ### 3.6  Copia de vectores
 Para copiar vectores no basta con igualar un vector a otro como si fuera una variable simple.
@@ -129,18 +128,54 @@ Si por ejemplo queremos copiar todos los elementos del vector v2 en el vector v1
 ```
 
 **- Utilizar la función arraycopy**
+La función `System.arraycopy(v_origen, i_origen,  v_destino, i_destino, length);` hace la copia por nosotros y recibe los siguientes parámetros:
+
+- `v_origen`: Vector orígen
+- `i_origen`: Posición inicial de la copia
+- `v_destino`: Vector destino
+- `i_destino`: Posición final de la copia
+- `length`: Cantidad de elementos a copiar
+
+Un ejemplo de uso:
 
 ```java
-System.arraycopy(v_origen, i_origen,  v_destino, i_destino, length);
-	v_origen: Vector orígen
-	i_origen: Posición inicial de la copia
-	v_destino: Vector destino
-	i_destino: Posición final de la copia
-	length: Cantidad de elementos a copiar
-
 	// Copiamos todos los elementos de v1 en v2
 	System.arraycopy(v1, 0, v2, 0, v1.length);
 ```
+
+## 4. MÉTODOS MÁS COMUNES CON ARRAYS
+
+En el paquete `java.utils` se encuentra una clase estática llamada `Arrays`. Esta clase estática permite ser utilizada como si fuera un objeto (como ocurre con Math). Esta clase posee métodos muy interesantes para utilizar sobre arrays.
+
+Algunos métodos son:
+
+- **fill**: permite rellenar todo un array unidimensional con un determinado valor. Sus argumentos son el array a rellenar y el valor deseado:
+  Por ejemplo, llenar un array de 23 elementos enteros con el valor -1
+  `int valores[] = new int[23];`
+  `Arrays.fill(valores,-1); // Almacena -1 en todo el array ‘valores’`
+  También permite decidir desde que índice hasta qué índice rellenamos:
+  `Arrays.fill(valores,5,8,-1); // Almacena -1 desde el 5o a la 7o elemento`
+
+- **equals** : Compara dos arrays y devuelve true si son iguales (false en caso contrario). Se consideran iguales si son del mismo tipo, tamaño y contienen los mismos valores.
+  `Arrays.equals(valoresA, valoresB); // devuelve true si los arrays son iguales`
+
+- **sort** : Permite ordenar un array en orden ascendente. Se pueden ordenar sólo una serie de elementos desde un determinado punto hasta un determinado punto.
+
+```java
+int x[]={4,5,2,3,7,8,2,3,9,5};
+Arrays.sort(x); // Ordena x de menor a mayor 
+Arrays.sort(x,2,5); // Ordena x solo desde 2o al 4o elemento
+```
+
+- **binarySearch** : Permite buscar un elemento de forma ultrarrápida en un array ordenado. Devuelve el índice en el que está colocado el elemento buscado.     
+  Ejemplo:
+  
+```java
+  int x[]={1,2,3,4,5,6,7,8,9,10,11,12};
+  Arrays.sort(x);
+  System.out.println(Arrays.binarySearch(x,8)); //Devolvería 7
+```
+
 
 ## EJERCICIOS INICIALES
 
