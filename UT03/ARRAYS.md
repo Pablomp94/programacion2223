@@ -143,12 +143,20 @@ Un ejemplo de uso:
 	System.arraycopy(v1, 0, v2, 0, v1.length);
 ```
 
-## 4. MÉTODOS MÁS COMUNES CON ARRAYS
+## 4. LA CLASE  "ARRAYS"
 
 En el paquete `java.utils` se encuentra una clase estática llamada `Arrays`. Esta clase estática permite ser utilizada como si fuera un objeto (como ocurre con Math). Esta clase posee métodos muy interesantes para utilizar sobre arrays.
 
 Algunos métodos son:
 
+- **toString**: Muestra el contenido del array seleccionado por pantalla sin necesidad de recorrerlo.
+  Ejemplo:
+  ```java
+  int arrayNum[] = new int[5] {4,5,7,2,9};
+  System.out.println(Arrays.toString(arrayNum));
+  //Mostraría [4,5,7,2,9]
+  ```
+  
 - **fill**: permite rellenar todo un array unidimensional con un determinado valor. Sus argumentos son el array a rellenar y el valor deseado:
   Por ejemplo, llenar un array de 23 elementos enteros con el valor -1
   `int valores[] = new int[23];`
