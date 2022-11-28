@@ -10,15 +10,15 @@
 
 5. Realiza un programa que muestre por pantalla cuantas vocales de cada tipo hay (cuantas ‘a’, cuantas ‘e’, etc.) en una frase introducida por teclado. No se debe diferenciar entre mayúsculas y minúsculas. 
 
-  Por ejemplo dada la frase “Mi mama me mima” dirá que hay:
+    Por ejemplo dada la frase “Mi mama me mima” dirá que hay:
 
-```code
+  ```code
 Nº de A's: 3
 Nº de E's: 1
 Nº de I's: 2
 Nº de O's: 0
 Nº de U's: 0
-```
+  ```
 
 6. Realiza un programa que lea una frase por teclado e indique si la frase es un palíndromo o no (ignorando espacios y sin diferenciar entre mayúsculas y minúsculas). Supondremos que el usuario solo introducirá letras y espacios (ni comas, ni puntos, ni acentos, etc.). Un palíndromo es un texto que se lee igual de izquierda a derecha que de derecha a izquierda. Por ejemplo:
 
