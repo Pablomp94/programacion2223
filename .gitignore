@@ -5,3 +5,12 @@
 .obsidian/core-plugins.json
 .obsidian/hotkeys.json
 .obsidian/workspace.json
+.obsidian/community-plugins.json
+.obsidian/page-preview.json
+.obsidian/plugins/dataview/main.js
+.obsidian/plugins/dataview/manifest.json
+.obsidian/plugins/dataview/styles.css
+.obsidian/plugins/table-editor-obsidian/data.json
+.obsidian/plugins/table-editor-obsidian/main.js
+.obsidian/plugins/table-editor-obsidian/manifest.json
+.obsidian/plugins/table-editor-obsidian/styles.css
