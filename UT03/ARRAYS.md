@@ -101,7 +101,16 @@ Ahora vamos a calcular la nota media (sumar todas y luego dividir entre el núme
 	// Calculamos la media y la mostramos por pantalla
 	media = suma / notas.length;
 	System.out.println(“La nota media es: “ + media);
-	
+
+#### Recorrido inverso
+En ocasiones, queremos recorrer un array empezando por el último elemento y terminando por el primero, para ello basta con hacer algunos cambios en el bucle for para que que empiece por el final y vaya decrementando el índice, tal que así:
+```java
+for (int j=edades. length; j>0;j--) {// for decremental
+  System.out.println(edades[j-1]);
+}
+```
+
+
 ### 3.5  Longitud de un vector
 Los arrays poseen una propiedad llamada length que indica su tamaño.
 
@@ -179,7 +188,7 @@ Arrays.sort(x,2,5); // Ordena x solo desde 2o al 4o elemento
   Ejemplo:
   
 ```java
-  int x[]={1,2,3,4,5,6,7,8,9,10,11,12};
+  int x[]={11,2,9,4,8,6,7,3,5,10,1,12};
   Arrays.sort(x);
   System.out.println(Arrays.binarySearch(x,8)); //Devolvería 7
 ```

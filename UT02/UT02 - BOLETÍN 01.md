@@ -1,14 +1,16 @@
-## BOLETÍN 01 - UT02
 1. Escribir un programa que muestre los números pares comprendidos entre el 1 y el 200. Para ello utiliza un contador y suma de 2 en 2.
 1. Escribir un programa en Java que calcule y muestre el mayor de 10 números pedidos.
 2. Escribir un programa que pida por pantalla un numero menor que 100 (que llamaremos  'numero') y calcule la suma de los números de 1 hasta ‘numero’.
 3. Escribir un programa que lea un número positivo N y calcule y visualice su factorial N!  
 Siendo el factorial:  
+```
 0! = 1  
 1! = 1  
 2! = 2 * 1  
 3! = 3 * 2 * 1  
 N! = N * (N-1) * (N-2)........* 3 * 2 * 1  
+```
+
 4. Escribir un programa que lea 10 números enteros y luego muestre un mensaje de si ha leído algún número negativo o no.
 5. Escribir un programa que lea 10 números enteros y luego muestre un mensaje indicando cuántos son positivos y cuantos negativos.
 6. Escribir un programa que lea una secuencia de números no nulos hasta que se introduzca un 0, y luego muestre si ha leído algún número negativo, cuantos positivos y cuantos negativos.
